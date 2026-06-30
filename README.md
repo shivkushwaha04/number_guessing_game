@@ -1,31 +1,34 @@
 # Number Guessing Game
 
-A browser-based interactive game built using **HTML, CSS, and Vanilla JavaScript**. The application challenges users to guess a randomly generated number within a custom range while providing real-time feedback and tracking game statistics.
+A browser-based number guessing game built with HTML, CSS, and vanilla JavaScript. The game allows players to choose a custom number range, make guesses, and receive real-time feedback until the correct number is found. It is designed to demonstrate core front-end development concepts, including DOM manipulation, event handling, and responsive design.
 
-The project demonstrates core front-end development concepts such as DOM manipulation, event handling, state management, and responsive design without relying on external libraries or frameworks.
+## Live Demo
+
+https://shivkushwaha04.github.io/number-guessing-game/
 
 ---
 
 ## Features
 
 * Customizable number range.
-* Instant feedback for each guess (Too High / Too Low).
-* Attempt counter and best score tracking.
-* Previous guesses displayed for reference.
+* Instant feedback for each guess.
+* Tracks the number of attempts and best score.
+* Displays previous guesses for reference.
 * Visual progress indicator.
 * Option to quit and reveal the secret number.
 * Fully responsive design for desktop and mobile devices.
-* Lightweight implementation with no dependencies.
+* Built without any external libraries or frameworks.
 
 ---
 
-## How It Works
+## How to Play
 
 1. Enter the maximum value for the guessing range.
-2. Start the game to generate a random number.
-3. Submit your guesses and follow the hints.
-4. Continue until you find the correct number or choose to quit.
-5. Start a new round and try to beat your best score.
+2. Click **Start Game**.
+3. Enter your guess and click **Guess** or press **Enter**.
+4. Follow the hints to determine whether your guess is too high or too low.
+5. Continue until you find the secret number or choose to quit.
+6. Start a new game and try to beat your best score.
 
 ---
 
@@ -40,37 +43,41 @@ The project demonstrates core front-end development concepts such as DOM manipul
 ## Project Structure
 
 ```text
-number-guessing-game/
-├── number_guessing_game.html
+number_guessing_game/
+├── index.html
+├── style.css
+├── script.js
 └── README.md
 ```
+
+---
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://shivkushwaha04.github.io/number-guessing-game/.git
+cd number_guessing_game
+```
+
+Then open `index.html` in any modern web browser.
 
 ---
 
 ## Future Enhancements
 
 * Difficulty levels with limited attempts.
-* Sound effects and animations.
 * Local Storage-based leaderboard.
+* Sound effects and animations.
 * Dark mode support.
 * Additional themes and customization options.
 
 ---
 
-## Getting Started
-
-```bash
-git clone https://github.com/yourusername/number-guessing-game.git
-cd number-guessing-game
-```
-
-Open `number_guessing_game.html` in any modern web browser.
-
----
-
 ## License
 
-This project is licensed under the MIT License.
+This project is open source and available under the MIT License.
 
 ---
 
@@ -78,6 +85,6 @@ This project is licensed under the MIT License.
 
 **Shivanshu Kushwaha**
 
-Undergraduate student with interests in software development, data structures and algorithms, and machine learning.
+* GitHub: https://github.com/shivkushwaha04
 
 Contributions, suggestions, and feedback are welcome.
